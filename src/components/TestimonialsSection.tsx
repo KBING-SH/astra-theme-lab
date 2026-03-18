@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Emily Tran",
     role: "Graphic Designer",
-    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
     content: "Using AI pixel conversion to turn images into pixel art has been enjoyable. The tool captures the essence of my photos, creating pixel portraits that work well for digital projects. It's interesting to see how the pixelated style keeps key details while giving images a nostalgic feel. I also appreciate the straightforward conversion process.",
   },
   {
