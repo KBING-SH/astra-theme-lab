@@ -55,24 +55,35 @@ const sections = [
   },
 ];
 
-export function ContentSections({ onSelectStyle }: { onSelectStyle?: (styleIndex: number) => void }) {
+export function ContentSections({ onSelectStyle, onSetPrompt }: { onSelectStyle?: (styleIndex: number) => void; onSetPrompt?: (prompt: string) => void }) {
   const [showTooltip, setShowTooltip] = useState(false);
 
   const handleTryNow = (sectionIndex: number) => {
-    if (onSelectStyle) {
-      onSelectStyle(SECTION_STYLE_MAP[sectionIndex] ?? 0);
-    } else {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-      const checkScrollDone = () => {
-        if (window.scrollY <= 5) {
-          setShowTooltip(true);
-          setTimeout(() => setShowTooltip(false), 3000);
-        } else {
-          requestAnimationFrame(checkScrollDone);
-        }
-      };
-      requestAnimationFrame(checkScrollDone);
-    }
+    const prompt = SECTION_PROMPTS[sectionIndex] ?? SECTION_PROMPTS[0];
+    
+    // Scroll to prompt textarea
+    const scrollToPrompt = () => {
+      const promptEl = document.querySelector<HTMLTextAreaElement>('textarea[placeholder*="Describe"]');
+      if (promptEl) {
+        promptEl.scrollIntoView({ behavior: "smooth", block: "center" });
+        // Focus and set prompt after scroll
+        setTimeout(() => {
+          promptEl.focus();
+          if (onSetPrompt) onSetPrompt(prompt);
+        }, 400);
+      } else {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        const waitAndSet = () => {
+          if (window.scrollY <= 5) {
+            if (onSetPrompt) onSetPrompt(prompt);
+          } else {
+            requestAnimationFrame(waitAndSet);
+          }
+        };
+        requestAnimationFrame(waitAndSet);
+      }
+    };
+    scrollToPrompt();
   };
 
   return (
