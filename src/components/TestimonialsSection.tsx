@@ -35,7 +35,7 @@ const testimonials = [
   {
     name: "Liam Johnson",
     role: "Hobbyist Photographer",
-    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1552058544-f2b08422138a?w=400&h=400&fit=crop",
     content: "I tried AI pixel conversion to see how my photos would look in pixel art style. The results were charming and captured the main details well. It was interesting to watch the change from a high-res photo to a pixelated version that still reflects the original image's character.",
   },
   {
