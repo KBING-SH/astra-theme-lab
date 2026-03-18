@@ -41,7 +41,7 @@ const testimonials = [
   {
     name: "Sofia Petrova",
     role: "Animator",
-    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?w=400&h=400&fit=crop",
     content: "The pixel conversion tool helped me create pixel art avatars that keep the essence of my characters. It balances simplification with style preservation nicely. This makes it easier to experiment with pixel art in my animations while keeping important design elements visible.",
   },
   {
