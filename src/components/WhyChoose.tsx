@@ -67,7 +67,7 @@ export function WhyChoose() {
           Why Choose Rita
         </h2>
         <p className="text-sm md:text-base text-body-desc text-center mb-8 md:mb-14 max-w-xl mx-auto">
-          Powerful AI + simple workflow — making cartoon creation accessible to everyone
+          Powerful AI + simple workflow — making pixel art creation accessible to everyone
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
