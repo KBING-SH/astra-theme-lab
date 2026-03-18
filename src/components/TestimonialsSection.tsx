@@ -59,7 +59,7 @@ const testimonials = [
   {
     name: "Daniel Kim",
     role: "Casual Gamer",
-    avatar: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=400&h=400&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1548142813-c348350df52b?w=400&h=400&fit=crop",
     content: "Using AI pixel conversion to make pixel art avatars was a cool experience. The pixel art style fits well with my interest in retro games, and the tool preserves recognizable details of the original images. It's a fun way to create game-like avatars for forums or profiles.",
   },
 ];
