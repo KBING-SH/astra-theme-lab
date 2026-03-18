@@ -61,29 +61,21 @@ export function ContentSections({ onSelectStyle, onSetPrompt }: { onSelectStyle?
   const handleTryNow = (sectionIndex: number) => {
     const prompt = SECTION_PROMPTS[sectionIndex] ?? SECTION_PROMPTS[0];
     
-    // Scroll to prompt textarea
-    const scrollToPrompt = () => {
-      const promptEl = document.querySelector<HTMLTextAreaElement>('textarea[placeholder*="Describe"]');
-      if (promptEl) {
-        promptEl.scrollIntoView({ behavior: "smooth", block: "center" });
-        // Focus and set prompt after scroll
+    // Scroll to top first, then set prompt
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    const waitAndSet = () => {
+      if (window.scrollY <= 5) {
+        if (onSetPrompt) onSetPrompt(prompt);
+        // Focus the visible prompt textarea
         setTimeout(() => {
-          promptEl.focus();
-          if (onSetPrompt) onSetPrompt(prompt);
-        }, 400);
+          const promptEl = document.querySelector<HTMLTextAreaElement>('textarea[placeholder*="Describe"]');
+          if (promptEl) promptEl.focus();
+        }, 100);
       } else {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-        const waitAndSet = () => {
-          if (window.scrollY <= 5) {
-            if (onSetPrompt) onSetPrompt(prompt);
-          } else {
-            requestAnimationFrame(waitAndSet);
-          }
-        };
         requestAnimationFrame(waitAndSet);
       }
     };
-    scrollToPrompt();
+    requestAnimationFrame(waitAndSet);
   };
 
   return (
