@@ -236,7 +236,7 @@ const Index = () => {
           <ToolFeatures />
           <HowItWorks />
           
-          <ContentSections onSelectStyle={handleSelectStyle} />
+          <ContentSections onSelectStyle={handleSelectStyle} onSetPrompt={(prompt) => promptSetterRef.current?.(prompt)} />
           <WhyChoose />
           <TestimonialsSection />
           <FAQSection />
