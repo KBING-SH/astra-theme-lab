@@ -4,7 +4,7 @@ const features = [
   {
     icon: Zap,
     title: "Simple Workflow",
-    desc: "Upload a photo, choose a style, and generate a cartoon image in a few steps — get started quickly with no complicated setup.",
+    desc: "Upload a photo and generate pixel art in a few steps — get started quickly with no complicated setup.",
     accent: "from-[hsl(45,100%,60%)] to-[hsl(30,95%,55%)]",
     iconBg: "bg-gradient-to-br from-[hsl(45,100%,60%)] to-[hsl(30,95%,55%)]",
     stat: "3",
@@ -13,7 +13,7 @@ const features = [
   {
     icon: Wand2,
     title: "Multiple AI Models",
-    desc: "Powered by multiple AI models for different visual styles, ensuring varied and expressive cartoon generation results.",
+    desc: "Powered by multiple AI models for pixel art conversion, ensuring varied and expressive pixel generation results.",
     accent: "from-[hsl(240,74%,61%)] to-[hsl(280,65%,60%)]",
     iconBg: "bg-gradient-to-br from-[hsl(240,74%,61%)] to-[hsl(280,65%,60%)]",
     stat: "7+",
@@ -22,7 +22,7 @@ const features = [
   {
     icon: Download,
     title: "High-Quality Output",
-    desc: "Download ready-to-use cartoon images suitable for social avatars, content creation, and personal projects.",
+    desc: "Download ready-to-use pixel art images suitable for game assets, social avatars, content creation, and personal projects.",
     accent: "from-[hsl(162,63%,50%)] to-[hsl(180,60%,45%)]",
     iconBg: "bg-gradient-to-br from-[hsl(162,63%,50%)] to-[hsl(180,60%,45%)]",
     stat: "HD",
@@ -30,8 +30,8 @@ const features = [
   },
   {
     icon: Sparkles,
-    title: "Multiple Styles",
-    desc: "Explore different cartoon looks including Ghibli, Pixel, Ink, Retro, and more — one photo, multiple creative options.",
+    title: "Pixel Art Styles",
+    desc: "Explore different pixel art looks with retro, classic, and modern pixel styles — one photo, multiple creative options.",
     accent: "from-[hsl(340,75%,55%)] to-[hsl(300,60%,55%)]",
     iconBg: "bg-gradient-to-br from-[hsl(340,75%,55%)] to-[hsl(300,60%,55%)]",
     stat: "8+",
@@ -40,7 +40,7 @@ const features = [
   {
     icon: Paintbrush,
     title: "Custom Prompts",
-    desc: "Enter your own prompts to guide cartoon effect details and mood, creating personalized results tailored to your vision.",
+    desc: "Enter your own prompts to guide pixel art details and mood, creating personalized results tailored to your vision.",
     accent: "from-[hsl(200,80%,55%)] to-[hsl(220,75%,55%)]",
     iconBg: "bg-gradient-to-br from-[hsl(200,80%,55%)] to-[hsl(220,75%,55%)]",
     stat: "∞",
