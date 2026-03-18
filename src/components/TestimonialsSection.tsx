@@ -23,7 +23,7 @@ const testimonials = [
   {
     name: "Michael O'Neill",
     role: "Digital Artist",
-    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop",
     content: "I've found AI pixel conversion helpful for turning my artwork into pixel art. The conversion respects the original style while simplifying it into pixel form. It's satisfying to see how the pixel art preserves key aspects like color and shape, making it suitable for digital collections with a retro look.",
   },
   {
