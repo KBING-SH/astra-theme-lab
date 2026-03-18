@@ -53,7 +53,7 @@ const testimonials = [
   {
     name: "Isabella Rossi",
     role: "Student",
-    avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=400&h=400&fit=crop",
     content: "I enjoyed turning my photos into pixel art using AI pixel conversion. The pixelated style feels retro and fun, and the tool keeps the main features clear. It's a neat way to make cartoon-like avatars that stand out on social media or in online communities.",
   },
   {
