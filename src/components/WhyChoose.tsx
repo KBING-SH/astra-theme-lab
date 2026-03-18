@@ -3,8 +3,8 @@ import { Zap, Paintbrush, Download, Wand2, Sparkles, Shield } from "lucide-react
 const features = [
   {
     icon: Zap,
-    title: "Simple Workflow",
-    desc: "Upload a photo and generate pixel art in a few steps — get started quickly with no complicated setup.",
+    title: "Quick & Easy",
+    desc: "Upload any photo and get pixel art in seconds — no design skills or complicated setup required.",
     accent: "from-[hsl(45,100%,60%)] to-[hsl(30,95%,55%)]",
     iconBg: "bg-gradient-to-br from-[hsl(45,100%,60%)] to-[hsl(30,95%,55%)]",
     stat: "3",
@@ -12,8 +12,8 @@ const features = [
   },
   {
     icon: Wand2,
-    title: "Multiple AI Models",
-    desc: "Powered by multiple AI models for pixel art conversion, ensuring varied and expressive pixel generation results.",
+    title: "AI-Powered Precision",
+    desc: "Multiple AI models work together to deliver detailed, expressive pixel art that captures your image's essence.",
     accent: "from-[hsl(240,74%,61%)] to-[hsl(280,65%,60%)]",
     iconBg: "bg-gradient-to-br from-[hsl(240,74%,61%)] to-[hsl(280,65%,60%)]",
     stat: "7+",
@@ -21,8 +21,8 @@ const features = [
   },
   {
     icon: Download,
-    title: "High-Quality Output",
-    desc: "Download ready-to-use pixel art images suitable for game assets, social avatars, content creation, and personal projects.",
+    title: "HD Downloads",
+    desc: "Export crisp, watermark-free pixel art ready for game assets, avatars, prints, and creative projects.",
     accent: "from-[hsl(162,63%,50%)] to-[hsl(180,60%,45%)]",
     iconBg: "bg-gradient-to-br from-[hsl(162,63%,50%)] to-[hsl(180,60%,45%)]",
     stat: "HD",
@@ -30,8 +30,8 @@ const features = [
   },
   {
     icon: Sparkles,
-    title: "Pixel Art Styles",
-    desc: "Explore different pixel art looks with retro, classic, and modern pixel styles — one photo, multiple creative options.",
+    title: "Versatile Styles",
+    desc: "From retro 8-bit to modern pixel aesthetics — choose the pixel art look that fits your creative vision.",
     accent: "from-[hsl(340,75%,55%)] to-[hsl(300,60%,55%)]",
     iconBg: "bg-gradient-to-br from-[hsl(340,75%,55%)] to-[hsl(300,60%,55%)]",
     stat: "8+",
@@ -39,8 +39,8 @@ const features = [
   },
   {
     icon: Paintbrush,
-    title: "Custom Prompts",
-    desc: "Enter your own prompts to guide pixel art details and mood, creating personalized results tailored to your vision.",
+    title: "Prompt Control",
+    desc: "Fine-tune your pixel art with custom prompts — control colors, mood, and detail level for personalized results.",
     accent: "from-[hsl(200,80%,55%)] to-[hsl(220,75%,55%)]",
     iconBg: "bg-gradient-to-br from-[hsl(200,80%,55%)] to-[hsl(220,75%,55%)]",
     stat: "∞",
@@ -48,26 +48,24 @@ const features = [
   },
   {
     icon: Shield,
-    title: "Privacy Focused",
-    desc: "We prioritize user privacy during image processing. Uploaded photos are handled according to Rita's privacy policy.",
+    title: "Privacy First",
+    desc: "Your uploads are processed securely and handled with care. We respect your data and protect your privacy.",
     accent: "from-[hsl(150,55%,45%)] to-[hsl(162,63%,50%)]",
     iconBg: "bg-gradient-to-br from-[hsl(150,55%,45%)] to-[hsl(162,63%,50%)]",
     stat: "✓",
-    statLabel: "Privacy",
+    statLabel: "Secure",
   },
 ];
 
 export function WhyChoose() {
-  
-
   return (
-    <section className="py-10 md:py-24 bg-card-alt">
+    <section className="py-12 md:py-28 bg-card-alt">
       <div className="container px-4 md:px-8 max-w-6xl">
         <h2 className="text-xl md:text-3xl font-bold text-title text-center mb-2 md:mb-3">
-          Why Choose Rita
+          Features & Benefits
         </h2>
-        <p className="text-sm md:text-base text-body-desc text-center mb-8 md:mb-14 max-w-xl mx-auto">
-          Powerful AI + simple workflow — making pixel art creation accessible to everyone
+        <p className="text-sm md:text-base text-body-desc text-center mb-10 md:mb-16 max-w-xl mx-auto">
+          Everything you need to create stunning pixel art from any photo
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
