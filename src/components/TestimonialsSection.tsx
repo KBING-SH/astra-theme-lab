@@ -11,7 +11,7 @@ const testimonials = [
   {
     name: "Carlos Mendez",
     role: "Social Media Enthusiast",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop",
     content: "I like how AI pixel conversion transforms my profile pictures into unique pixel art avatars. It adds a retro touch that stands out on social platforms. Uploading a photo and seeing it turned into pixel art with clear features is fun. This pixel style gives my online presence a fresh, creative look with little effort.",
   },
   {
