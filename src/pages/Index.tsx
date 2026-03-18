@@ -33,7 +33,9 @@ const Index = () => {
   const [selectedHistoryIdx, setSelectedHistoryIdx] = useState<number | null>(null);
   const [previewIdx, setPreviewIdx] = useState<number | null>(null);
   const styleSetterRef = useRef<((styleIndex: number) => void) | null>(null);
+  const styleSetterRefMobile = useRef<((styleIndex: number) => void) | null>(null);
   const promptSetterRef = useRef<((prompt: string) => void) | null>(null);
+  const promptSetterRefMobile = useRef<((prompt: string) => void) | null>(null);
 
   const handleSelectStyle = useCallback((styleIndex: number) => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -103,7 +105,7 @@ const Index = () => {
         {/* Mobile/Tablet: UploadPanel + Result */}
         <div className="flex-1 lg:w-[70%] min-w-0 flex flex-col overflow-hidden">
           <div className="lg:hidden flex-1 min-h-0 overflow-hidden">
-            <UploadPanel onGenerate={handleGenerate} externalStyleRef={styleSetterRef} externalPromptRef={promptSetterRef} />
+            <UploadPanel onGenerate={handleGenerate} externalStyleRef={styleSetterRefMobile} externalPromptRef={promptSetterRefMobile} />
           </div>
 
           {/* Mobile: result display OR hero intro */}
@@ -236,7 +238,7 @@ const Index = () => {
           <ToolFeatures />
           <HowItWorks />
           
-          <ContentSections onSelectStyle={handleSelectStyle} onSetPrompt={(prompt) => promptSetterRef.current?.(prompt)} />
+          <ContentSections onSelectStyle={handleSelectStyle} onSetPrompt={(prompt) => { promptSetterRef.current?.(prompt); promptSetterRefMobile.current?.(prompt); }} />
           <WhyChoose />
           <TestimonialsSection />
           <FAQSection />
