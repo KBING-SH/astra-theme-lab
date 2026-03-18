@@ -4,32 +4,36 @@ import { cn } from "@/lib/utils";
 
 const faqs = [
   {
-    q: "What is AI Photo to Cartoon?",
-    a: "AI Photo to Cartoon is a technology that transforms your photos into cartoon-style images using artificial intelligence.",
+    q: "What is AI pixel conversion used for?",
+    a: "AI pixel conversion is used to transform photos or images into pixel art, creating pixelated portraits that capture the essence of the original picture.",
   },
   {
-    q: "How does AI Photo to Cartoon work?",
-    a: "AI Photo to Cartoon uses AI algorithms to analyze your photo and recreate it with cartoon-like features and effects.",
+    q: "How does AI pixel conversion transform an image?",
+    a: "It converts an uploaded photo into a pixelated cartoon avatar by simplifying the image into pixel art with a retro feel, preserving key features in a pixelated format.",
   },
   {
-    q: "Can I use AI Photo to Cartoon for any photo?",
-    a: "AI Photo to Cartoon works best with clear, well-lit photos, but it can be applied to most types of images.",
+    q: "Can AI pixel conversion create pixel art avatars from any photo?",
+    a: "Yes, by uploading an image, the tool transforms it into a pixel art avatar suitable for uses like game characters or social profiles.",
   },
   {
-    q: "Is AI Photo to Cartoon easy to use?",
-    a: "Yes, AI Photo to Cartoon tools are designed to be user-friendly, allowing you to convert photos into cartoons quickly.",
+    q: "What style results from using AI pixel conversion?",
+    a: "The result is a pixelated cartoon portrait that reflects a retro pixel art style, turning the original photo into a simplified pixel art image.",
   },
   {
-    q: "Are the results from AI Photo to Cartoon customizable?",
-    a: "Some AI Photo to Cartoon tools offer options to adjust the style or intensity of the cartoon effect.",
+    q: "Is the process of converting images to pixel art complicated?",
+    a: "The process involves uploading an image and receiving a pixel art version, making converting an image to pixel art simple and straightforward.",
   },
   {
-    q: "Can AI Photo to Cartoon be used for professional purposes?",
-    a: "AI Photo to Cartoon can be used for various purposes, including personal and creative projects, depending on the quality needed.",
+    q: "What types of images work best with AI pixel conversion?",
+    a: "Clear photos that capture the essence of the subject work best, as the tool creates pixel art that maintains recognizable features from the original image.",
   },
   {
-    q: "Is AI Photo to Cartoon safe to use?",
-    a: "AI Photo to Cartoon services generally prioritize user privacy and data security, but it's good to review each service's policies.",
+    q: "What can AI pixel conversion be used for?",
+    a: "It can be used to create pixel art avatars for social media, game characters, or artistic projects requiring a retro pixel style.",
+  },
+  {
+    q: "Does AI pixel conversion change the colors of the original image?",
+    a: "The tool transforms the image into pixel art with a cartoon style, typically applying a pixelated retro effect, though specific color preservation details are not specified.",
   },
 ];
 
