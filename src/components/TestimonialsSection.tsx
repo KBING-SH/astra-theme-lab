@@ -29,7 +29,7 @@ const testimonials = [
   {
     name: "Hana Suzuki",
     role: "Content Creator",
-    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=400&fit=crop",
     content: "Creating pixel art avatars with AI pixel conversion has been a creative boost. The tool turns photos into pixelated images that keep recognizable features intact. It's a good way to add a distinctive retro touch to my channel art and social profiles, making my content visually appealing.",
   },
   {
