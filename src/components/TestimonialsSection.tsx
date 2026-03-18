@@ -17,7 +17,7 @@ const testimonials = [
   {
     name: "Aisha Khan",
     role: "Indie Game Developer",
-    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&h=400&fit=crop",
     content: "The AI pixel conversion tool is useful for creating pixel art characters from reference images. It simplifies detailed photos into pixelated versions that keep important visual elements. This helps me visualize game sprites in a retro style. The pixel art output is clear enough to keep character identity recognizable.",
   },
   {
