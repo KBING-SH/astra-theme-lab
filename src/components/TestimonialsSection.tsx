@@ -47,7 +47,7 @@ const testimonials = [
   {
     name: "Rajesh Patel",
     role: "Web Designer",
-    avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1618077360395-f3068be8e001?w=400&h=400&fit=crop",
     content: "AI pixel conversion gave me a fresh way to create unique pixel art for website avatars. The pixelated portraits keep the original photo's personality, adding a nostalgic charm to my design projects. The process was straightforward, and the pixel art looks good for digital use.",
   },
   {
