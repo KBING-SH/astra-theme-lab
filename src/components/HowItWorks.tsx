@@ -12,14 +12,14 @@ const steps = [
   },
   {
     step: "02",
-    title: "Pick Style · Generate",
-    desc: "Choose your favorite cartoon style and click generate. Rita AI delivers a high-quality cartoon image in seconds.",
+    title: "Generate Pixel Art",
+    desc: "Click generate and Rita AI transforms your photo into stunning pixel art in seconds — no design skills needed.",
     color: "from-theme1 to-emerald-400",
   },
   {
     step: "03",
     title: "Download & Share",
-    desc: "Instantly download HD watermark-free images, or share to social platforms with one click to show off your cartoon avatar.",
+    desc: "Instantly download HD watermark-free pixel art images, or share to social platforms with one click.",
     color: "from-theme2 to-primary",
   },
 ];
