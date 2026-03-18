@@ -8,6 +8,12 @@ import portraitBefore from "@/assets/portrait-before.jpg";
 import portraitAfter from "@/assets/portrait-after.jpg";
 import { AutoComparisonSlider } from "@/components/AutoComparisonSlider";
 
+const SECTION_PROMPTS = [
+  "Transform the photo into retro pixel art style, using a limited color palette and crisp pixel blocks, creating an 8-bit game-like nostalgic aesthetic suitable for avatars and social profiles.",
+  "Convert this pet photo into charming pixel art, using colorful pixel blocks to capture the pet's personality in a retro game sprite style.",
+  "Turn this landscape into pixel art scenery, simplifying the scene into crisp pixel blocks with a retro color palette, creating a nostalgic 8-bit world.",
+];
+
 const sections = [
   {
     icon: User,
@@ -48,9 +54,6 @@ const sections = [
     imageFirst: true,
   },
 ];
-
-// Map section index to style index: 0=Ghibli, 1=Cartoon, 2=Ink
-const SECTION_STYLE_MAP = [0, 1, 3];
 
 export function ContentSections({ onSelectStyle }: { onSelectStyle?: (styleIndex: number) => void }) {
   const [showTooltip, setShowTooltip] = useState(false);
